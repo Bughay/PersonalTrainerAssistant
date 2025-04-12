@@ -56,7 +56,7 @@ class Exercise(BaseModel):
 
 
 class Data_Exercise(BaseModel):
-    """Extracted data about Food."""
+    """Extracted data about Exercises."""
 
     # Creates a model so that we can extract multiple entities.
     people: List[Exercise]
